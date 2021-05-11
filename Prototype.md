@@ -4,12 +4,14 @@ Prototype design pattern is a creational design pattern that allows us to copy t
 The concept is to copy/duplicate an existing object rather than creating a new instance from scratch.
 
 **Problem:**
-If we want to create an exact copy of the object. we have to create a new object of the same class. Then we have to go through all properties of the original object and 
+
+  If we want to create an exact copy of the object. we have to create a new object of the same class. Then we have to go through all properties of the original object and 
 have to copy the values to the new object. In this case, some of the class properties may be private and we can't access from outside. 
 And its dependent on the original class to create a copy.
 
 **Solution:**
-Prototype pattern allows to create a copy of the object through cloning process. It declaresa common interface for all the objects which support cloning. 
+
+  Prototype pattern allows to create a copy of the object through cloning process. It declaresa common interface for all the objects which support cloning. 
 This interface allows to clone an object without dependent on the original class object. The interface contains the clone method, which creates the current class object and copy all properties of the current object to new object.
 
 **Advantage:**
