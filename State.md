@@ -4,6 +4,7 @@ State is a behavioral design pattern that allows the object to change its behavi
 In state pattern, we can create objects which represent various states and a context object whose behavior varies as its state changes.
 
 **Example**
+
 Let us assume a media player, which has a button to start and stop playing the media. If Player is in on state, clicking on the button will stop the player.
 If player is in off state, clicking on the same button will start the player. In this case, same button will act differently based on the player state(on/off).
 
