@@ -11,7 +11,7 @@ And its dependent on the original class to create a copy.
 
 **Solution:**
 
-  Prototype pattern allows to create a copy of the object through cloning process. It declaresa common interface for all the objects which support cloning. 
+  Prototype pattern allows to create a copy of the object through cloning process. It declares a common interface for all the objects which support cloning. 
 This interface allows to clone an object without dependent on the original class object. The interface contains the clone method, which creates the current class object and copy all properties of the current object to new object.
 
 **Advantage:**
